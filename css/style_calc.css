@@ -1,0 +1,29 @@
+*{
+	text-align: center;
+}
+
+body{
+	background-color: #c0b4ca;
+}
+
+.title {
+	color: #f0ffff;
+	margin: 50px;
+	font-family: sans-serif;
+	font-size: 40px;
+}
+
+.numeros {
+	border: 2px solid #ad91c4;
+	width: 60px;
+	height: 60px;
+	display: inline-block;
+	margin: 2px;
+	font-size: 32px;
+	color: #434040;
+	line-height: 60px;
+	font-family: sans-serif;
+	font-weight: bold;
+	box-sizing: border-box;
+	vertical-align: middle;
+}
