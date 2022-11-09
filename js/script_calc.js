@@ -1,1 +1,1 @@
-alert ("Bem-vindo(a) a Calculadora Mais Tec!")
+//alert ("Bem-vindo(a) a Calculadora Mais Tec!")

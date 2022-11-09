@@ -6,42 +6,52 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="css/reset_calc.css"/>
 	<link rel="stylesheet" href="css/style_calc.css"/>
-
+	<script src="https://kit.fontawesome.com/7e4ad6841a.js" crossorigin="anonymous"></script>
 	<title>Calculadora</title>
 </head>
 <body>
-	<h1 class="title">Calculadora Mais Tec</h1>
+	<div class="fundo">
+		<h1>Calculadora Mais Tec</h1>
+	
+			<p id="resultado"></p>
 
-	<div class="calc">
-		<div class="linha">
-			<button class="numeros">7</button>
-			<button class="numeros">8</button>
-			<button class="numeros">9</button>
-			<button class="numeros">+</button>
-		</div>
+			<div class="calc">
+				<div class="linha">
+					<button class="btn">C</button>
+					<button class="btn"><i class="fa-solid fa-delete-left"></i></button>
+					<button class="btn">/</button>
+					<button class="btn">X</button>
+				</div>
 
-		<div class="linha">
-			<button class="numeros">4</button>
-			<button class="numeros">5</button>
-			<button class="numeros">6</button>
-			<button class="numeros">-</button>
-		</div>
+				<div class="linha">
+					<button class="btn">7</button>
+					<button class="btn">8</button>
+					<button class="btn">9</button>
+					<button class="btn">+</button>
+				</div>
+		
+				<div class="linha">
+					<button class="btn">4</button>
+					<button class="btn">5</button>
+					<button class="btn">6</button>
+					<button class="btn">-</button>
+				</div>
 
-		<div class="linha">
-			<button class="numeros">1</button>
-			<button class="numeros">2</button>
-			<button class="numeros">3</button>
-			<button class="numeros">*</button>
-		</div>
-
-		<div class="linha">
-			<button class="numeros">.</button>
-			<button class="numeros">0</button>
-			<button class="numeros">=</button>
-			<button class="numeros">/</button>
-		</div>
-
-	<script src="js/script_calc.js"></script>
-
+				<div class="linha">
+					<button class="btn">1</button>
+					<button class="btn">2</button>
+					<button class="btn">3</button>
+					<button class="btn">=</button>
+				</div>
+		
+				<div class="linha">
+					<button class="btn">0</button>
+					<button class="btn">.</button>
+				</div>
+		
+				<script src="js/script_calc.js"></script>
+			</div>
+	</div>
+	
 </body>
 </html>
