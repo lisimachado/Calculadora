@@ -5,3 +5,8 @@ Desafio do Floripa Mais Tec - em parceria com Senai/Lab365
 
 A elaboração de uma calculadora com as quatro principais operações, soma, subtração, divisão e multiplicação.
 Para realização será utilizado: HTML5, CSS3 e JavaScript.
+
+
+BABY STEPS:
+* Adicionando html e css básico para a estrutura visual da calculadora
+* 
